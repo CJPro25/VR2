@@ -9,6 +9,7 @@ public class VaseBreak : MonoBehaviour
         {
             Instantiate(vase, transform.position, transform.rotation);
             Destroy(gameObject);
+            Debug.Log("smash.mp3");
         }
     }
 }
